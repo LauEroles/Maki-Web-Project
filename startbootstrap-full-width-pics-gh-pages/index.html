@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Maca Ifrain website</title>
+        <title>Maca Ifran website</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
@@ -13,14 +13,38 @@
         <link rel="icon" type="image/x-icon" href="assets/Logo Maga rosa-sfondo.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        
+    
     </head>
     <body>
+
         <!-- Responsive navbar #233041-->
         <nav class="navbar navbar-expand-lg custom-header">
+        
+            <div class="icono-menu">
+                <img src="Images/hamburgermenu_120234.png" width="50px" id="icono-menu">
+            </div>
+            
             <div class="container">
-                <img src="Images/Logo Maga rosa-sfondo.png" width="90px">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <img src="Images/Logo Maga rosa-sfondo.png" width="100px">
+
+                <!--  <button class="open-menu∫">Abrir</button>-->
+
+            <!-- Elimine la instruccion para colapsar menu cuando la pantalla es mobile porque voy a agregarle un menu hamburguesa para toda versión-->
+                
+                <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>-->
+                <div id="flags" class="flags">
+                    <div class="flags_item" data-language="es">
+                        <img src="Images/flags/spanish.svg" alt="es">
+                    </div>
+                    <div class="flags_item" data-language="en">
+                        <img src="Images/flags/english.svg" alt="en">
+                    </div>
+                </div>
+
+               <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+               <div class= "cont-menu active" id="menu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About me</a></li>
@@ -30,12 +54,19 @@
                                 <li class="nav-item"><a class="nav-link" href="vocational-orientation.html">Vocational orientation</a></li>
                                 <li class="nav-item"><a class="nav-link" href="career-guidance.html">Career guidance</a></li>
                                 <li class="nav-item"><a class="nav-link" href="job-coaching.html">Job coaching</a></li>
-                                <li class="nav-item"><a class="nav-link" href="climate-culture">Organizational climate & culture</a></li>
+                                <li class="nav-item"><a class="nav-link" href="climate-culture.html">Organizational climate & culture</a></li>
+                                <li class="nav-item"><a class="nav-link" href="data-services.html">Data Services</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#!">My blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="form.html">Contact</a></li>
                     </ul>
+
+                    <li>
+
+                    </li>
+
                 </div>
             </div>
         </nav>
@@ -47,14 +78,19 @@
                 <p>Coach vocacional</p>
             </div>
         </header>
+
         <!-- Content section-->
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h2>Acerca de mí</h2>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+                        <h2>About me</h2>
+                        <p class="lead">Hi there! I am Maca. I have been working on a People teams for over 7 years. I’ve graduated with a Bachelor's Degree in HR Management. 
+                            Since then, I have been focusing on my main mission, which is to create opportunities to connect Talent, put in my grain of sand into People’s lives, develop their potential, truly enjoy what they do, and produce an overall positive impact on society and the environment.
+                            I specialized in talent acquisition, change management and labor psychopedagogy. 
+                            Currently, I’m working as a TA Business Partner, at a non-profit organization that seeks to accelerate the transition to clean energy in emerging and developing countries.
+                            Furthermore, during the last few months I have been training as a vocational coach and career guidance..</p>
+                        <p class="mb-0">"Colocar una frase muy tuya aquí".</p>
                     </div>
                 </div>
             </div>
@@ -69,9 +105,10 @@
             <div class="container my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h2>Mi propósito</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+                        <h2>My purpose</h2>
+                        <p class="lead">You'll catch me mentoring and encouraging talent in their career journey.
+                            Managing People, connecting companies and talents; with a real purpose to make a difference,  and providing tools and resources to generate a social conscience, is my superpower!</p>
+                        <p class="mb-0">My mantra...inspiring the people</p>
                     </div>
                 </div>
             </div>
@@ -84,5 +121,9 @@
         <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>-->
         <!-- Core theme JS ???? --> 
        <!-- <script src="js/scripts.js"></script>-->
+
+       <!--Agregue esto para el menu-->
+       <script src="./js/app.js"></script>
+
     </body>
 </html>
