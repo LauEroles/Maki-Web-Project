@@ -16,17 +16,58 @@
     </head>
     <body>
          <!-- Responsive navbar #233041-->
-         <nav class="navbar navbar-expand-lg custom-header">
+        <nav class="navbar navbar-expand-lg custom-header">
+        
+            <div class="icono-menu">
+                <img src="Images/hamburgermenu_120234.png" width="50px" id="icono-menu">
+            </div>
+            
             <div class="container">
-                <img src="Images/Logo Maga rosa-sfondo.png" width="90px">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <img src="Images/Logo Maga rosa-sfondo.png" width="100px">
+
+                <!--  <button class="open-menu∫">Abrir</button>-->
+
+            <!-- Elimine la instruccion para colapsar menu cuando la pantalla es mobile porque voy a agregarle un menu hamburguesa para toda versión-->
+                
+                <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>-->
+                <div id="flags" class="flags">
+                    <div class="flags_item" data-language="es">
+                        <img src="Images/flags/spanish.svg" alt="es">
+                    </div>
+                    <div class="flags_item" data-language="en">
+                        <img src="Images/flags/english.svg" alt="en">
+                    </div>
+                </div>
+
+               <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+               <div class= "cont-menu active" id="menu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="recruiting.html">Recruiting</a></li>
+                                <li class="nav-item"><a class="nav-link" href="vocational-orientation.html">Vocational orientation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="career-guidance.html">Career guidance</a></li>
+                                <li class="nav-item"><a class="nav-link" href="job-coaching.html">Job coaching</a></li>
+                                <li class="nav-item"><a class="nav-link" href="climate-culture.html">Organizational climate & culture</a></li>
+                                <li class="nav-item"><a class="nav-link" href="data-services.html">Data Services</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#!">My blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="form.html">Contact</a></li>
                     </ul>
+
+                    <li>
+
+                    </li>
+
                 </div>
             </div>
         </nav>
+
        
         <!-- Header - set the background image for the header in the line below-->
         <header class="py-5 bg-image-full" with="120px" style="background-image: url(Images/background-pages/Diseño\ sin\ título.png)">
@@ -82,13 +123,18 @@
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-light">
+       
+         <!-- Footer-->
+         <footer class="py-5 bg-light">
             <div class="container"><p class="m-0 text-center">Copyright &copy; Your Website 2023</p></div>
         </footer>
         <!-- Bootstrap core JS ??? --> 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>-->
         <!-- Core theme JS ???? --> 
-        <script src="js/scripts.js"></script>
+       <!-- <script src="js/scripts.js"></script>-->
+
+       <!--Agregue esto para el menu-->
+       <script src="./js/app.js"></script>
+
     </body>
 </html>
