@@ -11,10 +11,55 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+
+
 *{
   font-family: "Rubik";
 }
-
+.en{
+  color: #e0c6d7;
+  
+}
+.es{
+  color: #c8a6bc;
+}
+.check{
+  position:relative;
+  width: 50px;
+}
+.check:before{
+  content:'';
+  position:absolute;
+  width: 50px;
+  height: 25px;
+  background: #f6f4f5;
+  border-radius: 25px;
+}
+.check:after{
+  content:'';
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background: #f6f4f5;
+  border-radius: 25px;
+  transition: 0.255;
+  border:2px solid #f1e5eb;
+  box-sizing:border-box;
+}
+.check:checked:after{
+  left: 25px;
+  border:2px solid #f4cce6
+}
+.check:checked:before{
+  background: #c3e0e5;
+}
+/* Contenedor del selector de idioma */
+.language-switch {
+  display: flex; /* Alinea en una fila */
+  align-items: center; /* Centra verticalmente */
+  gap: 5px; /* Espacio entre elementos */
+}
 
 .custom-header{
   background-color: #fafafae4;
@@ -501,6 +546,10 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+.lead b,
+.lead strong{
+  font-weight:bold !important ;
 }
 
 .display-1 {
@@ -10858,6 +10907,9 @@ textarea.form-control-lg {
   text-decoration:wavy;
 
 }
+
+
+/* Cambiar aqui flags por letras   */
 
 .flags{
   width: 90px;
