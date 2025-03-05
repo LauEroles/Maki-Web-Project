@@ -6,16 +6,20 @@ html{
     height: 100%;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0%;
     padding: 0%;
     background: none;
 }
 .container{
-    margin: 50px auto;
+    margin: 150px auto; /* Aumenta el margen superior para moverlo más abajo */
     width: 400px;
     padding: 30px;
     background: rgba(227, 198, 198, 0.447);
     border-radius: 10px;
+    text-align: center;
 }
 .container h2{
    margin: 0 0 30px;
@@ -53,4 +57,42 @@ footer{
     margin: 20px;
     padding-inline: 20px;
     padding-bottom: 20px;
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Aumenta la separación entre elementos */
+    margin-top: 30px; /* Mayor margen superior para separación */
+
+}
+
+.social-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
