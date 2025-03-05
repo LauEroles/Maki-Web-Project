@@ -17,7 +17,7 @@ This is an informative website, my first project built for learning purposes and
 * I have worked on look and feel of the website
 * Hambuguer menu
 ![Hamburguer menu](READMEimages/hamburguer%20menu.png)
-![Home web page](READMEimages/extended%20menu.png)
+
 *  Bilingual webpage
 ![Bilingual web page](READMEimages/bilingual%20feature.png)
 * LinkedIn Maki's Profile redirection
