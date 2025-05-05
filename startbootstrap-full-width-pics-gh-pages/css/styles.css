@@ -52,7 +52,7 @@
   border:2px solid #f4cce6
 }
 .check:checked:before{
-  background: #c3e0e5;
+  background: #e0e1e2;
 }
 /* Contenedor del selector de idioma */
 .language-switch {
